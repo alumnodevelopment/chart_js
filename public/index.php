@@ -3,6 +3,7 @@ require_once __DIR__ . '/../includes/app.php';
 
 
 use Controllers\DetalleController;
+use Controllers\MapaController;
 use MVC\Router;
 use Controllers\AppController;
 $router = new Router();
@@ -12,6 +13,12 @@ $router->get('/', [AppController::class,'index']);
 
 $router->get('/productos/estadisticas', [DetalleController::class,'estadisticas']);
 $router->get('/API/detalle/estadistica', [DetalleController::class,'detalleVentasAPI']);
+
+
+///este/////////////
+$router->get('/mapa', [MapaController::class,'index']);
+
+//////////////////////
 
 
 

@@ -36,7 +36,9 @@
                             <li>
                                 <a class="dropdown-item nav-link text-white " href="/chart_js/productos/estadisticas"><i class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Gráfica de ventas</a>
                             </li>
-                        
+                            <li>
+                                <a class="dropdown-item nav-link text-white " href="/chart_js/mapa"><i class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>MAPA</a>
+                            </li>
                     
                         
                         </ul>
